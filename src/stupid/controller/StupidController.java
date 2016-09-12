@@ -42,6 +42,12 @@ public class StupidController
 		String birthdayInput = inputReader.next();
 		System.out.println("Nice. Mine is close to " + birthdayInput);
 		
+		System.out.println("Do you like to dab?");
+		String dabInput = inputReader.nextLine();
+		System.out.println("You are right: " + dabInput);
+		
+		
+		
 		
 		
 	}
