@@ -52,7 +52,7 @@ public class StupidController
 	}
 	private void loopMonster()
 	{
-    
+		
     //define a variable for condition/test
     int numberOfTimes = 0;
     while(numberOfTimes < 1000)
