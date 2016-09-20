@@ -49,11 +49,25 @@ public class StupidController
 		System.out.println("Bye");
 		String someInput = inputReader.next();
 		System.out.println("Ok, you typed this: " + someInput);
-	    
-		
-		
-		
-		
 	}
-	
+	private void loopMonster()
+	{
+    
+    //define a variable for condition/test
+    int numberOfTimes = 0;
+    while(numberOfTimes < 1000)
+    
+    {
+    	//Code to do
+    	System.out.print("First monster words" + firstMonster);
+    	
+    	//Code to change variable for condition
+    	numberOfTimes++;
+    }
+    
+    for(int count = 0; count < 1000; count++)
+    {
+    	System.out.println("First monster words" + firstMonster);
+    }
+	}
 }
